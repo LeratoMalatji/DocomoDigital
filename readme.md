@@ -41,6 +41,11 @@ src
 1.The following Test can be ran by running CucumberTestRunner.java located in src->test->java which will run all the test and produce a report
 
 2.Else the test can be ran by running the individul feature files located in src->test->resources -> features
-        
-          
-        
+
+3.Run maven command form terminal 
+
+## Test execution Report
+
+1.The report that is generated is a extent type report is located under -> target/cucumber-reports/report/CucumberExtent-Reports (Timestaped)/test-output/Spark/ExtentSpark.html
+
+2.This report can be opened with any browser choice eg.chrome
