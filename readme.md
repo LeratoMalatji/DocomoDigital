@@ -38,14 +38,16 @@ src
                  *This is where the cucumber feature files are located same place where test data is been driven
 
 ## Run tests
-1.The following Test can be ran by running CucumberTestRunner.java located in src->test->java which will run all the test and produce a report
+1.Run this command ->(mvn clean install) from the terminal in this directory /DocomoDigital
 
-2.Else the test can be ran by running the individul feature files located in src->test->resources -> features
+2.The following Test can be ran by running CucumberTestRunner.java located in src->test->java which will run all the test and produce a report
 
-3.Run maven command form terminal 
+3.Else the test can be ran by running the individul feature files located in src->test->resources -> features
+
+4.Run maven command form terminal (`mvn clean install test -Dtest=**/**.java`) in this directory /DocomoDigital where POM is located
 
 ## Test execution Report
 
-1.The report that is generated is a extent type report is located under -> target/cucumber-reports/report/CucumberExtent-Reports (Timestaped)/test-output/Spark/ExtentSpark.html
+1.The report that is generated is a extent type report is located under -> target/cucumber-reports/report/CucumberExtent-Reports(Timestaped)/test-output/Spark/ExtentSpark.html
 
 2.This report can be opened with any browser choice eg.chrome
